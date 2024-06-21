@@ -1,0 +1,56 @@
+/* Standard-Import für den gesamten Text */
+html, body, li {
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+/* Import für den spezifischen Font nur für h1 bis h6 */
+@import url("https://fonts.cdnfonts.com/css/architects-daughter");
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Architects Daughter", Arial, sans-serif; /* Priorität für Architects Daughter */
+    font-style: normal;
+    font-weight: normal; /* oder entsprechendem Gewicht anpassen */
+    /* Falls gewünscht, die Größe der Überschriften hier definieren */
+}
+.text-green {
+  color: #00ff00;
+}
+
+.text-yellow {
+  color: #fff000;
+}
+
+.text-red {
+  color: #ff0000;
+}
+
+.text-blue {
+  color: #2ac9ff;
+}
+
+.text-orange {
+  color: #ffd000;
+}
+.list-group-item {
+  background: transparent;
+}
+
+.green-border {
+  border: #00ff00 solid;
+}
+.yellow-border {
+  border: 2px #fff000 solid;
+}
+
+.red-border {
+  border: #ff0000 solid;
+}
+.red-border-bottom {
+  border-bottom: 4px #ff0000 groove;
+}
+.blue-border {
+  border: 4px #2ac9ff solid;
+}
